@@ -29,14 +29,16 @@ public class PersonHandler {
         return result;
     }
 
-
-
     public String forLoop() {
         String result = "";
+
         // identify initial value
         // identify terminal condition
         // identify increment
-
+        for(int index = 0; index < personArray.length; index++){
+            Person currentPerson = personArray[index];
+            result += currentPerson.toString();
+        }
         // use the above clauses to declare for-loop signature
             // begin loop
                 // use `counter` to identify the `current Person` in the array
