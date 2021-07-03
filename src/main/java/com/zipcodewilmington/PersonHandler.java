@@ -53,11 +53,10 @@ public class PersonHandler {
 
         // identify array's type = Person
         // identify array's variable-name = personArray
-    for (Person : personArray){
-        int index = 0;
-        Person currentPerson = personArray[index];
+    for (Person currentPerson : personArray){
+        currentPerson = personArray[0];
         result += currentPerson.toString();
-        index++;
+
         }
         // use the above discoveries to declare for-each-loop signature
             // begin loop
