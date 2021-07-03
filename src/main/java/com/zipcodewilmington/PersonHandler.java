@@ -50,11 +50,11 @@ public class PersonHandler {
 
     public String forEachLoop() {
         String result = "";
-
+        int index = 0;
         // identify array's type = Person
         // identify array's variable-name = personArray
     for (Person currentPerson : personArray){
-        currentPerson = personArray[0];
+        currentPerson = personArray[index];
         result += currentPerson.toString();
 
         }

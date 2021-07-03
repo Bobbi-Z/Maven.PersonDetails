@@ -4,6 +4,8 @@ import  org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
+
 /**
  * Created by leon on 1/24/18.
  */
@@ -34,7 +36,7 @@ public class PersonHandlerTest {
         String actual = personHandler.whileLoop();
 
         // : Then
-        Assert.assertEquals(expected, actual);
+        assertEquals(expected, actual);
     }
 
 
@@ -44,7 +46,7 @@ public class PersonHandlerTest {
         String actual = personHandler.forLoop();
 
         // : Then
-        Assert.assertEquals(expected, actual);
+        assertEquals(expected, actual);
     }
 
 
@@ -54,7 +56,7 @@ public class PersonHandlerTest {
         String actual = personHandler.forEachLoop();
 
         // : Then
-        Assert.assertEquals(expected, actual);
+        assertEquals(expected, actual);
     }
 
 
