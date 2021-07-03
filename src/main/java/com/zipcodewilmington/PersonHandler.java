@@ -56,7 +56,7 @@ public class PersonHandler {
     for (Person currentPerson : personArray){
         currentPerson = personArray[index];
         result += currentPerson.toString();
-
+         index++;
         }
         // use the above discoveries to declare for-each-loop signature
             // begin loop

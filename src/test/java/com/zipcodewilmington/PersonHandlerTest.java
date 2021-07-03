@@ -56,7 +56,7 @@ public class PersonHandlerTest {
         String actual = personHandler.forEachLoop();
 
         // : Then
-        assertEquals(expected, actual);
+        Assert.assertEquals(expected, actual);
     }
 
 
