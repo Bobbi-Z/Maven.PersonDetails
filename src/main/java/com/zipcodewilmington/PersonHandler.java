@@ -18,8 +18,9 @@ public class PersonHandler {
             while (index < personArray.length) {
                 // begin loop
                 Person currentPerson = personArray[index];
-                result = currentPerson.toString();
+                result += currentPerson.toString();
                 index++;
+
                 // use `counter` to identify the `current Person` in the array
                 // get `string Representation` of `currentPerson`
                 // append `stringRepresentation` to `result` variable
